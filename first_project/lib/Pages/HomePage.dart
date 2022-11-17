@@ -160,6 +160,14 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
           ),
+          Container(
+              height: 26,
+              alignment: Alignment.centerLeft,
+              color: Color(0xffF7F7FC),
+              child: Padding(
+                padding: const EdgeInsets.only(left: 16),
+                child: Text('A'),
+              )),
         ],
       ),
     );
