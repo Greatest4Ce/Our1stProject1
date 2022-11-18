@@ -1,4 +1,5 @@
 import 'package:first_project/Widgets/LatestWidget.dart';
+import 'package:first_project/Widgets/ListViewContacts.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -168,6 +169,43 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: const EdgeInsets.only(left: 16),
                 child: Text('A'),
               )),
+          SizedBox(
+            height: 350,
+            child: ListView(
+              physics: const AlwaysScrollableScrollPhysics(),
+              scrollDirection: Axis.vertical,
+              children: [
+                ListViewContacts(
+                    color: Color.fromARGB(255, 159, 236, 166),
+                    name: "Aron Ashluxe",
+                    number: "(907)555-0101"),
+                ListViewContacts(
+                    color: Color.fromARGB(255, 145, 225, 228),
+                    name: "Annette Black",
+                    number: "(907)555-0101"),
+                ListViewContacts(
+                    color: Color.fromARGB(255, 235, 169, 169),
+                    name: "Albert Cooper",
+                    number: "(907)555-0101"),
+                ListViewContacts(
+                    color: Color.fromARGB(255, 238, 237, 158),
+                    name: "Albert Flores",
+                    number: "(907)555-0101"),
+                ListViewContacts(
+                    color: Color.fromARGB(255, 222, 169, 235),
+                    name: "Arlene McCoy",
+                    number: "(907)555-0101"),
+                ListViewContacts(
+                    color: Color.fromARGB(255, 150, 189, 248),
+                    name: "Amina Jones",
+                    number: "(907)555-0101"),
+                ListViewContacts(
+                    color: Color.fromARGB(255, 235, 178, 132),
+                    name: "Ann Evans ",
+                    number: "(907)555-0101"),
+              ],
+            ),
+          )
         ],
       ),
     );

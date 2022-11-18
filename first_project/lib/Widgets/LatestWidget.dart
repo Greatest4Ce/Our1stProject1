@@ -40,7 +40,7 @@ class LatestWidget extends StatelessWidget {
               style: TextStyle(
                 fontFamily: "Sofia Pro",
                 fontSize: 12,
-                fontWeight: FontWeight.w400,
+                fontWeight: FontWeight.w500,
               ),
             )
           ],
