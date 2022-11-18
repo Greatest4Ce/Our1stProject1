@@ -51,7 +51,7 @@ class ListViewContacts extends StatelessWidget {
               ),
               SizedBox(
                 height: 1,
-                width: MediaQuery.of(context).size.width,
+                width: MediaQuery.of(context).size.width * 0.74,
                 child: Divider(
                   color: Color(0xffD9DBE9),
                 ),
